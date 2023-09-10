@@ -26,8 +26,6 @@ const md = new MarkdownIt().use(markdownItColor);
 
 ## Render
 
-You can add options. Default option is below.
-
 ```javascript
 md.render('{red}(sample)'); // => '<span id="md-convert" style="color: red;">sample</span>'
 ```
