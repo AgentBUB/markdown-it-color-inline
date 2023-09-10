@@ -1,6 +1,6 @@
 {
 	"name": "markdown-it-color-inline",
-	"version": "1.9.3",
+	"version": "1.9.4",
 	"description": "Allows for you to change your markdown text color within inline styles.",
 	"main": "index.js",
 	"scripts": {
