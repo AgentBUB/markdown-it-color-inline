@@ -1,4 +1,5 @@
-# markdown-it-color
+# markdown-it-color-inline
+Made this because the original wasn't working on my SvelteKit app, so now it does.
 
 ## install
 
@@ -12,6 +13,14 @@ npm install markdown-it-color --save
 var md = require('markdown-it')()
             .use(require('markdown-it-color'))
 ```
+or
+```javascript
+import markdownItColor from 'markdown-it-color-inline';
+
+const md = new MarkdownIt()
+	.use(markdownItColor);
+
+```
 
 ## API
 
@@ -21,19 +30,9 @@ You can add options. Default option is below.
 var md = require('markdown-it')()
             .use(require('markdown-it-color'), {
               defaultClassName: 'md-colorify', // default
-              inline: false, // default
-            })
-
-md.render('{primary}(sample)') // => '<span class="md-colorify md-colorify--primary">sample</span>'
-```
-
-If you want to use inline style, use like below.
-
-```javascript
-var md = require('markdown-it')()
-            .use(require('markdown-it-color'), {
-              inline: true,
             })
 
 md.render('{red}(sample)') // => '<span class="md-colorify md-colorify--red" style="color: red;">sample</span>'
 ```
+
+The original has a non-inline version, so if you want that, head [to the original](https://github.com/nkjmsss/markdown-it-color).
