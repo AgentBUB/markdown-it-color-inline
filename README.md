@@ -5,7 +5,7 @@ Made this because the original wasn't working on my SvelteKit app, so now it doe
 ## install
 
 ```shell
-npm install markdown-it-color --save
+npm i markdown-it-color-inline --save
 ```
 
 ## use
