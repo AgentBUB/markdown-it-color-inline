@@ -1,6 +1,6 @@
 {
 	"name": "markdown-it-color-inline",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Inline style color plugin for markdown-it",
 	"main": "dist/index.js",
 	"types": "types/index.d.ts",
@@ -30,6 +30,9 @@
 		"url": "https://github.com/AgentBUB/markdown-it-color-inline/issues"
 	},
 	"homepage": "https://github.com/AgentBUB/markdown-it-color-inline#readme",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"devDependencies": {
 		"@babel/core": "^7.5.5",
 		"@babel/plugin-transform-arrow-functions": "^7.2.0",
