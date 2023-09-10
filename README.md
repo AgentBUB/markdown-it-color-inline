@@ -13,13 +13,13 @@ npm i markdown-it-color-inline --save
 ## use
 
 ```javascript
-var md = require('markdown-it')().use(require('markdown-it-color'));
+var md = require('markdown-it')().use(require('markdown-it-color-inline'));
 ```
 
 or
 
 ```javascript
-import markdownItColor from 'markdown-it-color-inline';
+import markdownItColorInline from 'markdown-it-color-inline';
 
 const md = new MarkdownIt().use(markdownItColor);
 ```
