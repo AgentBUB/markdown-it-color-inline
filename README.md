@@ -1,6 +1,8 @@
 # markdown-it-color-inline
 
-Made this because the original wasn't working on my SvelteKit app, so now it does.
+After a lot of working, starting with a fork, then making my own package, I got my first npm package running.
+I made this to work on my SvelteKit project because the ones I tried just errored out in production, so here we are.
+Shout out to [nkjmsss](https://github.com/nkjmsss/markdown-it-color) and [yusu79](https://github.com/yusu79/markdown-it-mojicolor) as those package/creators are what I used to peace together this. _I did a little copy & paste from both, so please do go view their amazing work._
 
 ## install
 
@@ -27,12 +29,9 @@ const md = new MarkdownIt().use(markdownItColor);
 You can add options. Default option is below.
 
 ```javascript
-var md = require('markdown-it')().use(require('markdown-it-color'), {
-	defaultClassName: 'md-colorify', // default
-	defaultIdName: 'md-convert', // default
-});
+var md = require('markdown-it')().use(require('markdown-it-color'));
 
-md.render('{red}(sample)'); // => '<span id="md-convert" class="md-colorify md-colorify--red" style="color: red;">sample</span>'
+md.render('{red}(sample)'); // => '<span id="md-convert" style="color: red;">sample</span>'
 ```
 
-The original has a non-inline version, so if you want that, head [to the original](https://github.com/nkjmsss/markdown-it-color).
+_If I learn how npm packages work better, I will add a config for the id._
