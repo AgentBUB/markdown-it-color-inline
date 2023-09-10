@@ -1,4 +1,4 @@
 export interface Options {
   defaultClassName?: string
-  inline?: boolean
+  defaultIdName?: string
 }

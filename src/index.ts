@@ -37,7 +37,7 @@ export const colorPlugin: PluginWithOptions<Options> = (
 
       const openToken = state.push('color_open', 'span', 1)
       openToken.attrs = [['class', [`${defaultClassName}`, `${defaultClassName}--${colorName}`].join(' ')]]
-      openToken.attrs = [['id', [`${defaultIdName}`].join(' ')]]
+      openToken.attrs = [['id', defaultIdName]]
       openToken.attrs.push(['style', `color: ${colorName};`])
       openToken.info = colorName
 
