@@ -1,7 +1,7 @@
 {
-  "name": "markdown-it-color",
-  "version": "2.1.1",
-  "description": "Inline color plugin for markdown-it",
+  "name": "markdown-it-color-inline",
+  "version": "1.0.0",
+  "description": "Inline style color plugin for markdown-it",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "files": [
@@ -24,10 +24,10 @@
     "markdown",
     "color"
   ],
-  "author": "nkjmsss",
+  "author": "Agent BUB (OG: nkjmsss)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nkjmsss/markdown-it-color/issues"
+    "url": "https://github.com/AgentBUB/markdown-it-color-inline/issues"
   },
   "homepage": "https://github.com/nkjmsss/markdown-it-color#readme",
   "devDependencies": {
