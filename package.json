@@ -30,9 +30,6 @@
 		"url": "https://github.com/AgentBUB/markdown-it-color-inline/issues"
 	},
 	"homepage": "https://github.com/AgentBUB/markdown-it-color-inline#readme",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
-	},
 	"devDependencies": {
 		"@babel/core": "^7.5.5",
 		"@babel/plugin-transform-arrow-functions": "^7.2.0",
